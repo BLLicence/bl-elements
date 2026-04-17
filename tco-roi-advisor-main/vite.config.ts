@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/bl-elements/tco-roi-advisor-main/",
   server: {
     host: "::",
     port: 8080,
